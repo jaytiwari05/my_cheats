@@ -1,6 +1,11 @@
 # nxc
 #plateform/linux #target/remote #cat/ATTACK
 
+## nxc2 for generating HOST File
+```
+nxc2 smb <ip> --generate-hosts-file hosts_file && cat hosts_file >> /etc/hosts
+```
+
 ## SMB all in one
 ```
 nxc smb <ip> -u '<user>' -p '<passwd>' --shares --users --pass-pol --rid-brute 10000 --log $(pwd)/smb.out; cat smb.out | grep TypeUser | cut -d '\' -f 2 | cut -d ' ' -f 1 > users.txt; cat users.txt
