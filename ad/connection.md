@@ -3,10 +3,10 @@
 
 ## SMBclinet-ng Fast Login
 ```
-smbclientng -u 'ldap' -p 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' --host 10.10.11.174
+smbclientng -u '<user> -p '<password>' --host <ip>
 ```
 
 ## PowerView Login
 ```
-/opt/powerview.py/powerview.py DC.support.htb/support:'Ironside47pleasure40Watchful'@10.10.11.174
+python3 /opt/powerview.py/powerview.py <domain_name>/<user>:'<password>'@<ip>
 ```
