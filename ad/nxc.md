@@ -35,6 +35,15 @@ nxc ldap <ip> -u '<user>' -p '<passwd>' --users --asreproast hashes.asreproast -
 nxc ldap <ip> -u '<user>' -p '<passwd>' -M adcs
 ```
 
+## Check kcache tickets
+```
+nxc smb <ip> -k --use-kcache -u <user> -X "whoami"
+```
+
+## Generate krb5 file
+```
+nxc smb <ip> -u <user> -p <password> --generate-krb5-file <out_file>
+```
 
 ## Execute bloodhound
 ```
