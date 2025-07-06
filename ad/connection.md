@@ -8,5 +8,15 @@ smbclientng -u '<user> -p '<password>' --host <ip>
 
 ## PowerView Login
 ```
-python3 /opt/powerview.py/powerview.py <domain_name>/<user>:'<password>'@<ip>
+powerview <domain_name>/<user>:'<password>'@<ip>
+```
+
+## PowerView Enum Users
+```
+powerview <domain_name>/<user>:'<password>'@<ip> -k -q 'Get-DomainUser -Select sAMAccountName' --no-cache
+```
+
+## Powerview Web Login
+```
+powerview <domain_name>/<user>:'<password>'@<ip> -k --web --web-host 0.0.0.0 --web-port 3000 --web-auth user:password1234
 ```
