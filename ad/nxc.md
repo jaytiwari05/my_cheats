@@ -1,9 +1,14 @@
 # nxc
 #plateform/linux #target/remote #cat/ATTACK
 
+## nxc smb spider module
+```
+nxc smb <ip>  -u  <user> -p '<passwd>' -M spider_plus 
+```
+
 ## nxc2 for generating HOST File
 ```
-nxc2 smb <ip> --generate-hosts-file hosts_file && cat hosts_file >> /etc/hosts
+nxc smb <ip> --generate-hosts-file hosts_file 
 ```
 
 ## SMB all in one
