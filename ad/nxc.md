@@ -40,6 +40,11 @@ nxc ldap <ip> -u '<user>' -p '<passwd>' --users --asreproast hashes.asreproast -
 nxc ldap <ip> -u '<user>' -p '<passwd>' -M adcs
 ```
 
+## Get SID of Domain
+```
+nxc ldap -u <user> -p <passwd> -dc-ip <ip> --get-sid
+```
+
 ## Check kcache tickets
 ```
 nxc smb <ip> -k --use-kcache -u <user> -X "whoami"
