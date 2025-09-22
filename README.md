@@ -1,7 +1,19 @@
-# hashcat
-#cracking
+# Active Directory CheatSheet — Arsenal Commands
 
-## Crack hash
+**Purpose:** Small, quick reference of commands used with the *Arsenal* tool for Active Directory testing.
+
+**Ethics:** For authorized testing and learning only. Do not run these against systems without written permission.
+
+## Repo structure
+
 ```
-hashcat -m <mode> <hash> <wordlist|/usr/share/wordlists/rockyou.txt> --force
+ad/    # AD-focused cheats (e.g., bloodyad.md, certipy.md, psexec.md)
+aa/    # other collections
+misc/
+snmp/
+web/
 ```
+
+## License
+
+MIT (or change to your preferred license)
