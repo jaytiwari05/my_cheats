@@ -13,7 +13,3 @@ misc/
 snmp/
 web/
 ```
-
-## License
-
-MIT (or change to your preferred license)
