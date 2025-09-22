@@ -1,5 +1,5 @@
 # nxc
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## nxc smb spider module
 ```

@@ -1,5 +1,5 @@
 # getuserspns
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Kerberoast
 ```

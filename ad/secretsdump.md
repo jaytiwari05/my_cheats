@@ -1,5 +1,5 @@
 # secretsdump
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Dump all secrets with password
 ```

@@ -1,5 +1,5 @@
 # username-anarchy
-#plateform/linux #target/remote #cat/UTILS
+#active-directory
 
 ## Generate userlist with all formats
 ```

@@ -1,5 +1,5 @@
 # Connect With Machine
-#plateform/linux #target/remote #cat/CONNECTION
+#active-directory
 
 ## SMBclinet-ng Fast Login
 ```

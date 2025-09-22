@@ -1,5 +1,5 @@
 # bloodyad
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Set password
 ```

@@ -1,5 +1,5 @@
 # certipy
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Shadow cred
 ```

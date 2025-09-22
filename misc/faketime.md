@@ -1,5 +1,5 @@
 # faketime
-#plateform/linux #target/remote #cat/UTILS
+linux #target/remote UTILS
 
 ## Clock skew too great
 ```

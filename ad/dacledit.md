@@ -1,5 +1,5 @@
 # dacledit
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Abuse GenericAll over OU
 ```

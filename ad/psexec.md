@@ -1,5 +1,5 @@
 # psexec
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Psexec with password
 ```

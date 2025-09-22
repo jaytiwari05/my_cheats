@@ -1,5 +1,5 @@
 # snmpbrute
-#plateform/linux #target/remote #cat/ATTACK
+
 
 ## Brute force community strings
 ```

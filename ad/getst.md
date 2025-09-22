@@ -1,5 +1,5 @@
 # getst
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## RBCD
 ```

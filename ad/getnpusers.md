@@ -1,5 +1,5 @@
 # getnpusers
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## ASREPRoast with usersfile
 ```

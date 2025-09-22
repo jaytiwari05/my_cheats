@@ -1,5 +1,5 @@
 # sliver c2
-#plateform/linux #target/remote #cat/UTILS
+#UTILS
 
 
 ## Generate a Session 

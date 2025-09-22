@@ -1,5 +1,5 @@
 # sqlmap
-#plateform/linux #target/remote #cat/ATTACK
+#web
 
 ## Test GET request
 ```

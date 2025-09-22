@@ -1,5 +1,5 @@
 # ffuf
-#plateform/linux #target/remote #cat/ATTACK
+#web
 
 ## Fuzz vhosts
 ```

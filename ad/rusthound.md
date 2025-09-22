@@ -1,5 +1,5 @@
 # rusthound
-#plateform/linux #target/remote #cat/RECON
+#active-directory
 
 ## Execute RustHound
 ```

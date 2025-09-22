@@ -1,5 +1,5 @@
 # targetedkerberoast
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Targeted kerberoast
 ```

@@ -1,5 +1,5 @@
 # xfreerdp
-#plateform/linux #target/remote #cat/UTILS
+#active-directory
 
 ## Standard connect
 ```

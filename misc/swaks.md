@@ -1,5 +1,5 @@
 # sqlmap
-#plateform/linux #target/remote #cat/ATTACK
+#active-directory
 
 ## Send an email
 ```

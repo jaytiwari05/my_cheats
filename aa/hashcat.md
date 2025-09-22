@@ -1,5 +1,5 @@
 # hashcat
-#plateform/linux #target/remote #cat/CRACKING
+#cracking
 
 ## Crack hash
 ```

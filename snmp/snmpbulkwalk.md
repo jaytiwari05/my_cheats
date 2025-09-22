@@ -1,5 +1,5 @@
 # snmpbulkwalk
-#plateform/linux #target/remote #cat/ATTACK
+#linux
 
 ## Enumerate public community string
 ```

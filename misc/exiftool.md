@@ -1,5 +1,5 @@
 # exiftool
-#plateform/linux #target/remote #cat/UTILS
+#utils
 
 ## View metadata for a file
 ```

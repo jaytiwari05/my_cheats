@@ -1,3 +1,7 @@
-# arsenal_cheats
+# hashcat
+#cracking
 
-Here are my personal arsenal cheats.
+## Crack hash
+```
+hashcat -m <mode> <hash> <wordlist|/usr/share/wordlists/rockyou.txt> --force
+```
